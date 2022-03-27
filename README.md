@@ -1,3 +1,5 @@
+공사중입니다
+
 자바스크립트는...
 브라우저에 설치돼 있다
 Console에서 실험할 수 있다
@@ -29,3 +31,5 @@ document: 웹브라우저 창 안에 보이는 문서
 
 mozilla html에서 addEventListener 확인 가능
 developer.mozilla.org
+
+사실 자바스크립트에서 CSS(element의 style) 바꾸는 것 권장하지 않음
