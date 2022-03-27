@@ -21,3 +21,11 @@ querySelector(".hello form") // class
 event를 listen
 (port에서 발생하는 request를 listen)
 함수를 변수처럼 쓰는 것, 고차함수(콜백 함수)
+
+js에 쓸 때는 click, html에 쓸 때는 onclick
+
+window: 웹브라우저의 창이나 탭
+document: 웹브라우저 창 안에 보이는 문서
+
+mozilla html에서 addEventListener 확인 가능
+developer.mozilla.org

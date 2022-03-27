@@ -18,5 +18,40 @@ function handleTitleClick(){
     title.style.color="red"
     title.innerText="Bomm!"
 }
+
+// 커서가 해당 공간에 들어왔다
+function handleMouseEnter(){
+    title.innerText = "mouse is here!";
+}
+
+function handleMouseLeave(){
+    title.innerText = "mouse is gone!";
+}
+
 // 버튼이 아니어도 클릭을 감지할 수 있다
-title.addEventListener("click", handleTitleClick);
+title.addEventListener("click", handleTitleClick); // title.onclick = handleTitleClick 이렇게도 쓸 수 있음
+title.addEventListener("mouseenter", handleMouseEnter);
+title.addEventListener("mouseleave", handleMouseLeave);
+
+function handleWindowResize(){
+    document.body.style.backgroundColor = "tomato";
+}
+
+function handleWindowCopy(){
+    alert("copier!");
+}
+
+window.addEventListener("resize", handleWindowResize);
+window.addEventListener("copy", handleWindowCopy);
+
+function handleWindowOnline(){
+    alert("diva online!");
+}
+
+
+function handleWindowOffline(){
+    alert("somebody help me!");
+}
+
+window.addEventListener("online", handleWindowOnline);
+window.addEventListener("offline", handleWindowOffline);
