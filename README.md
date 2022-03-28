@@ -33,3 +33,12 @@ mozilla html에서 addEventListener 확인 가능
 developer.mozilla.org
 
 사실 자바스크립트에서 CSS(element의 style) 바꾸는 것 권장하지 않음
+
+active는 clicked라고 바꿀 수 있음
+raw value, raw string
+동일한 string을 계속 사용할 때 변수로 만들어줄 수 있음
+
+className은 안에 있는 모든 요소가 영향을 받음
+클래스에서 하나의 요소만 바꾸기 위해 사용!
+클래스는 여러 개의 이름을 가질 수 있음(classList) 공백으로 구분
+element가 class name을 포함하고 있는지 확인 -> toggle

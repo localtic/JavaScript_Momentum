@@ -1,15 +1,18 @@
- // 자바스크립트에서도 css 쓸 수 있음
 const h1 = document.querySelector("#title_id");
+const h2 = document.querySelector("#title_id2");
 
 function handleTitleClick(){
-    const currentColor = h1.style.color;
-    let newColor;
-    if(currentColor === "blue"){
-        newColor = "tomato";
-    } else{
-        newColor = "blue";
+    const clickedClass = "clicked";
+    if(h1.classList.contains(clickedClass)){
+        h1.classList.remove(clickedClass);
+    } else {
+        h1.classList.add(clickedClass);
     }
-    h1.style.color = newColor;
+}
+
+function handleTClick(){
+    h2.classList.toggle("clicked");
 }
 
 h1.addEventListener("click", handleTitleClick);
+h2.addEventListener("click", handleTClick);
