@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Momentum</title>
 </head>
 <body>
-    <form id="login-form">
+    <form id="login-form" class="hidden">
         <input 
         required
         maxlength="15"
@@ -14,7 +15,7 @@
         placeholder="what is your name?"/>
         <button>Log In</button>
     </form>
-    <a href="https://naver.com">naver</a>
+    <h1 class="hidden" id="greeting"></h1>
     <script src="app.js"></script>
 </body>
 </html>

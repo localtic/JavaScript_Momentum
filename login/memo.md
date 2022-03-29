@@ -11,3 +11,11 @@ form이 submit될 때마다 새로고침됨
 
 submit할 때, function이 방금 발생한 event에 대한 정보를 argument로 받는다
 MouseEvent(PointerEvent) 유저가 클릭한 위치를 x,y 좌표로 받는다
+
+## Saving Username
+localStorage 브라우저에 저장하게 해주는 API
+console에 localStorage.setItem/getItem/removeItem
+
+## Loading Username
+유저 정보 유무 확인 -> 있으면 h1, 없으면 form
+hidden class를 지우면 보임
